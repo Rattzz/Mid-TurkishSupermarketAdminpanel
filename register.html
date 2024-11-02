@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BIM Cashier Register</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+      <center>
+      <h1>BIM <br/>
+          Cashier Registration Form</h1>
+      </center>
+      <div id="pnl">
+              <div class="row col-md-6 col-md-offset-3">
+                  <div class="panel panel-primary">
+                      <div class="panel-heading text-center">
+                      </div>
+                      <div class="panel-body">
+                          <form action="connect.php" method="post">
+                              <div class="form-group">
+                                  <label for="username">Employee Name:</label>
+                                  <input type="text"
+                                         class="form-control"
+                                         id="username"
+                                         name="username" />
+                              </div>
+                              <br />
+                              <div class="form-group">
+                                  <label for="password">Password:</label>
+                                  <input type="password"
+                                         class="form-control"
+                                         id="password"
+                                         name="password" />
+                              </div>
+                              <br />
+                              <div class="form-group">
+                                  <label for="status">Status:</label>
+                                  <input type="text"
+                                         class="form-control"
+                                         id="status"
+                                         name="status" />
+                              </div>
+                              <input type="submit" id="btn" class="btn btn-primary" value="Register" />
+                          </form>
+                      </div>
+                      <div class="panel-footer text-right">
+                      </div>
+                  </div>
+              </div>
+      </div>
+  </body>
+</html>
